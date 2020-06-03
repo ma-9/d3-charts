@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400&display=swap');
+body {
+  font-family: Lora;
+}
+body svg {
+  background-color: rgb(230, 230, 230);
+  height: 60vh;
+  width: 80vw;
+  overflow: visible;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+}
+.buttons {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+.buttons button {
+  padding: 10px;
+  margin-top: 45px;
+  border-radius: 5px;
+  font-family: Lora;
+  font-weight: 700 !important;
+}
